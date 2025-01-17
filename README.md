@@ -11,6 +11,10 @@ This project is intended for learning and practicing the path, beggining to end,
 
 ![Reference and inspiration](https://www.youtube.com/watch?v=3uQymob_L_A)
 
+## Algorithm flow
+
+*Add flow drawing for the algorithm logic - present in the reference video*
+
 ## Result
 
 *Add result here*
