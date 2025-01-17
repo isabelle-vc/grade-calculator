@@ -5,11 +5,7 @@
 
 ## About
 
-This project is intended for learning and practicing the path, beggining to end, of a application usign HTML, CSS and JavaScript.
-
-## Links
-
-[Reference and inspiration](https://www.youtube.com/watch?v=3uQymob_L_A)
+This is a basic project is intended for learning and practicing the path, beggining to end, of a application usign HTML, CSS and JavaScript.
 
 ## Algorithm flow
 
@@ -18,3 +14,7 @@ This project is intended for learning and practicing the path, beggining to end,
 ## Result
 
 *Add result here*
+
+## References
+
+[![Watch the video](https://img.youtube.com/vi/3uQymob_L_A/hqdefault.jpg)](https://www.youtube.com/watch?v=3uQymob_L_A)
