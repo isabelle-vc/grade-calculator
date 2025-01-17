@@ -9,7 +9,7 @@ This project is intended for learning and practicing the path, beggining to end,
 
 ## Links
 
-![Reference and inspiration](https://www.youtube.com/watch?v=3uQymob_L_A)
+[Reference and inspiration](https://www.youtube.com/watch?v=3uQymob_L_A)
 
 ## Algorithm flow
 
