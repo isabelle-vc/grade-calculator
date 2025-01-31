@@ -56,10 +56,10 @@ function calculateAverage() {
     if (average > 6 ) {
             const elementoResultado = document.getElementById('result')
         document.getElementById('result').textContent = `Approved | Grade average: ${average}`;
-            elementoResultado.className = 'Approved'
+            elementoResultado.className = 'approved'
     } else {
         document.getElementById('result').textContent = `Reproved | Grade average: ${average}`
-            document.getElementById('result').className = 'Reproved';   
+            document.getElementById('result').className = 'reproved';   
     }
 }
 
