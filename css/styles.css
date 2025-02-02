@@ -1,71 +1,182 @@
 /* General styles */
 
 body {
-    font-family: Arial, sans-serif;
-    display: grid;
-    justify-content: space-between;
-    align-items: center;
-    height: min-content;
-    background-color: #f7f1e3 !important;
-    grid-template-columns: 280px 1fr;
-    /* background-image: url(.docs/education.png);
-    background-size: cover;
-    background-position: center; */
-  }
-  
-:root, [data-bs-theme=light] {
+  font-family: Helvetica, sans-serif;
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+  height: min-content;
+  background-color: #f7f1e3 !important;
+  grid-template-columns: 280px 1fr;
+  background-image: url(../image/Education.png);
+  /* (..) means the search will follow the parent file path */
+  background-size: cover;
+  background-position: center;
+}
+
+:root,
+[data-bs-theme=light] {
   --bs-body-bg: #000000
 }
 
-  /* Content style */
+.material-symbols-outlined {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+}
 
-  hr {
-    background-color: #ffffff;
-    height: 4px;
-  }
+/* Sidebar style */
 
-  body .nav {
-    --bs-nav-pills-link-active-bg: #2c2c54;
-  }
+.fs-4 {
+  font-family: "Lexend", serif;
+  font-weight: 500;
+}
 
-  .calculator {
-    
-    padding: 40px;
-    background-color: #ffffff;
-    border-radius: 5px;
-    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
-  }
-  
-  /* .btn {
-    padding: 5px 15px;
-    background-color: #4CAF50;
-    color: #ffffff;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-  } */
+hr {
+  background-color: #ffffff;
+  height: 4px;
+}
 
-  #addGrade {
-    border: #2c2c54;
-    outline-width: 2px;
-    background-color: aqua;
-  }
-  
-  input {
-    border: 1px solid black;
-    border-radius: 5px;
-    padding: 5px;
-  }
-  
-  #result {
-    padding: 20px;
-    border-radius: 10px;
-  }
-  
-  .approved {
-    background-color: #4CAF50;
-  }
-  
-  .reproved {
-    background-color: red;
-  }
+body .nav {
+  --bs-nav-pills-link-active-bg: #2c2c54;
+}
+
+/* Calculator style */
+
+.calculator {
+
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.calculator h2 {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  font-size: 40px;
+  font-family: "Lexend", serif;
+  font-weight: bold;
+  margin-bottom: 32px;
+  color: #2c2c54;
+}
+
+.calculator h2 i {
+  font-size: 40px;
+}
+
+.btn {
+  /* display: flex;
+  justify-content: center;
+  padding: 5px 15px;
+  background-color: #4CAF50;
+  color: #ffffff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer; */
+}
+
+#inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  /* border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px; */
+}
+
+#grade {
+  height: 40px;
+  padding-left: 8px;
+  border-color: #2c2c54 !important;
+  border-radius: 3px;
+}
+
+/* addGrade button states */
+
+#addGrade { /* Default style */
+  display: flex;
+  gap: 4px;
+  outline: 2px solid #2c2c54;
+  background-color: transparent;
+  color: #2c2c54;
+  justify-content: center;
+  font-weight: 500;
+}
+
+#addGrade:hover { /* Change on hover */
+  display: flex;
+  gap: 4px;
+  outline: none;
+  background-color: #4C4C92;
+  color: #ffffff;
+  justify-content: center;
+  font-weight: 500;
+}
+
+#addGrade:active { /* Change when clicked */
+  display: flex;
+  gap: 4px;
+  outline: none;
+  background-color: #2c2c54;
+  color: #ffffff;
+  justify-content: center;
+  font-weight: 500;
+}
+
+/* #grades {
+  display: inline-block;
+  margin-right: ;
+  height: 24px;
+} */
+
+/* calculateAverage button states */
+
+#calculateAverage {
+  display: flex;
+  gap: 4px;
+  outline: none;
+  background-color: #2c2c54;
+  color: #ffffff;
+  justify-content: center;
+  margin: 16px 0px 16px 0px;
+  font-weight: 500;
+}
+
+#calculateAverage:hover {
+  display: flex;
+  gap: 4px;
+  outline: none;
+  background-color: #4C4C92;
+  color: #ffffff;
+  justify-content: center;
+  font-weight: 500;
+}
+
+#calculateAverage:active {
+  display: flex;
+  gap: 4px;
+  outline: none;
+  background-color: #2c2c54;
+  color: #ffffff;
+  justify-content: center;
+  font-weight: 500;
+}
+
+#result {
+  padding: 8px 8px 8px 8px;
+  border-radius: 10px;
+  margin: 0;
+}
+
+.approved {
+  background-color: #4CAF50;
+}
+
+.reproved {
+  background-color: red;
+}

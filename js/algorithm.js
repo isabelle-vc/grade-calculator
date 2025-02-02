@@ -55,7 +55,7 @@ function calculateAverage() {
 
     if (average > 6 ) {
             const elementoResultado = document.getElementById('result')
-        document.getElementById('result').textContent = `Approved | Grade average: ${average}`;
+            document.getElementById('result').textContent = `Approved | Grade average: ${average}`;
             elementoResultado.className = 'approved'
     } else {
         document.getElementById('result').textContent = `Reproved | Grade average: ${average}`
@@ -74,3 +74,8 @@ window.onload = () => {
     btnaddGrade.addEventListener('click', addGrade)
     btncalculateAverage.addEventListener('click', calculateAverage)
 }
+
+document.getElementById("calculateAverage").addEventListener("click", function() {
+    document.getElementById("iconResult").innerHTML = 
+        '<i class="material-symbols-rounded">check_circle</i>';
+});
