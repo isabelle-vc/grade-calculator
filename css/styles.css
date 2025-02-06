@@ -43,6 +43,15 @@ body .nav {
   --bs-nav-pills-link-active-bg: #2c2c54;
 }
 
+.nav-item {
+  background-color: #2c2c54 !important;
+  border-radius: 8px;
+}
+
+.nav-link:hover {
+  background-color: #494991 !important;
+}
+
 /* Calculator style */
 
 .calculator {
@@ -94,11 +103,13 @@ body .nav {
   padding-left: 8px;
   border-color: #2c2c54 !important;
   border-radius: 3px;
+  width: 232px;
 }
 
 /* addGrade button states */
 
-#addGrade { /* Default style */
+#addGrade {
+  /* Default style */
   display: flex;
   gap: 4px;
   outline: 2px solid #2c2c54;
@@ -108,17 +119,19 @@ body .nav {
   font-weight: 500;
 }
 
-#addGrade:hover { /* Change on hover */
+#addGrade:hover {
+  /* Change on hover */
   display: flex;
   gap: 4px;
   outline: none;
-  background-color: #4C4C92;
+  background-color: #494991;
   color: #ffffff;
   justify-content: center;
   font-weight: 500;
 }
 
-#addGrade:active { /* Change when clicked */
+#addGrade:active {
+  /* Change when clicked */
   display: flex;
   gap: 4px;
   outline: none;
@@ -128,11 +141,13 @@ body .nav {
   font-weight: 500;
 }
 
-/* #grades {
-  display: inline-block;
-  margin-right: ;
-  height: 24px;
-} */
+#grades {
+  margin: 16px 0px 8px 0px;
+}
+
+::marker {
+  color: #FFB142;
+}
 
 /* calculateAverage button states */
 
@@ -151,7 +166,7 @@ body .nav {
   display: flex;
   gap: 4px;
   outline: none;
-  background-color: #4C4C92;
+  background-color: #494991;
   color: #ffffff;
   justify-content: center;
   font-weight: 500;
@@ -168,15 +183,22 @@ body .nav {
 }
 
 #result {
+  display: flex;
+  justify-content: center;
   padding: 8px 8px 8px 8px;
   border-radius: 10px;
   margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+
 }
 
 .approved {
-  background-color: #4CAF50;
+  color: #000;
+  background-color: #90E990;
 }
 
 .reproved {
-  background-color: red;
+  color: #000;
+  background-color: #E97272;
 }

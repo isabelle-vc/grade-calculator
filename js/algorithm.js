@@ -54,13 +54,13 @@ function calculateAverage() {
         // string interpolation is indicated by `` where it can hold fixed text and variables from the code, because "" identify the content as fixed only
 
     if (average > 6 ) {
-            const elementoResultado = document.getElementById('result')
+            const elementoResultado = document.getElementById('result');
             document.getElementById('result').textContent = `Approved | Grade average: ${average}`;
-            elementoResultado.className = 'approved'
+            elementoResultado.className = 'approved';
     } else {
-        document.getElementById('result').textContent = `Reproved | Grade average: ${average}`
+        document.getElementById('result').textContent = `Reproved | Grade average: ${average}`;
             document.getElementById('result').className = 'reproved';   
-    }
+    } 
 }
 
 // The button "Add grade" wasn't working because on the window.onload command it was missing the " => " after the (), 
@@ -75,7 +75,9 @@ window.onload = () => {
     btncalculateAverage.addEventListener('click', calculateAverage)
 }
 
-document.getElementById("calculateAverage").addEventListener("click", function() {
-    document.getElementById("iconResult").innerHTML = 
-        '<i class="material-symbols-rounded">check_circle</i>';
-});
+
+// Attempt to put a icon together with the text result
+// document.getElementById("calculateAverage").addEventListener("click", function() {
+//     document.getElementById("iconResult").innerHTML = 
+//         '<i class="material-symbols-rounded">check_circle</i>';
+// });
