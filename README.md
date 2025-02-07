@@ -1,18 +1,49 @@
-# grade-calculator
+<h1>
+    <div style="display: flex; gap: 8px;">
+        <img src=".docs/calculator-icon.png" alt="icon" width="40px">
+        grade-calculator
+    </div>
+</h1>
 
-![License](https://img.shields.io/github/license/isabelle-vc/googly?logo=apache&color=lightseagreen)
+ <img src="https://img.shields.io/github/license/isabelle-vc/googly?logo=apache&color=lightseagreen" alt="icon" width="96px">
 
-## About
+<h2>
+    <div style="display: flex; gap: 8px;">
+        <img src=".docs/about-icon.png" alt="icon" width="24px">
+        About
+    </div>
+</h2>
 
+<p>
 This project is intended for learning and practicing the path, beggining to end, of a application usign HTML, CSS and JavaScript.
+</p>
 
-## Algorithm flow
+<h2>
+    <div style="display: flex; gap: 8px;">
+        <img src=".docs/flow-icon.png" alt="icon" width="24px">
+        Algorithm flow
+    </div>
+</h2>
 
-*Add flow drawing for the algorithm logic - present in the reference video*
+<img src="image/flow.png">
 
-## Result
+<h2>
+    <div style="display: flex; gap: 8px;">
+        <img src=".docs/result-icon.png" alt="icon" width="24px">
+        Result
+    </div>
+</h2>
 
-*Add result here*
+<img src="image/caculator-interface.png">
+<img src="image/result.png">
 
-## References
-[![Watch the video](https://img.youtube.com/vi/3uQymob_L_A/hqdefault.jpg)](https://www.youtube.com/watch?v=3uQymob_L_A)
+<h2>
+    <div style="display: flex; gap: 8px;">
+        <img src=".docs/links-icon.png" alt="icon" width="24px">
+        References
+    </div>
+</h2>
+
+<a href="https://www.youtube.com/watch?v=3uQymob_L_A" style="color: #FFB142;"> 
+    🔗 Lógica de Programação por TRYBE
+</a>

@@ -44,7 +44,7 @@ function calculateAverage() {
 
     for (let index = 0; index < grades.length; index += 1) {
 
-        // the sum will appear by adding [sumgGrade] + the grades in the next index position
+        // the sum will appear by adding [sumGrade] + the grades in the next index position
 
         sumGrade = sumGrade + grades[index];
     }
