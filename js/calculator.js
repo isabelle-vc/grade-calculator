@@ -55,14 +55,13 @@ function averageGrade(allGrades){
 function onClick_CalculateAverage() {
     const averageResult = averageGrade(LIST_OF_GRADES)
     if (averageResult>=6){
-        alert("Aprovado")
+        document.getElementById("result").innerText = "Aprovado " + averageResult
+        document.getElementById("result").classList.add("approved")
     } else {
-        alert("Reprovado")
+        document.getElementById("result").innerText = "Reprovado " + averageResult
+        document.getElementById("result").classList.add("reproved")
     }
 }
-
-
-
 
 // --------------------------------------------------------------
 //  The code bellow 👇 runs as soon as the HTML page is loaded!
