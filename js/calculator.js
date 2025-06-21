@@ -44,8 +44,9 @@ function averageGrade(allGrades){
         totalGrades = totalGrades+allGrades[i]
     }
     const averageGradesResult = totalGrades/numberOfGrades
-    return averageGradesResult
-}
+    return parseFloat(averageGradesResult.toFixed(1))   // Used to restrict the number of decimals places on the result
+}                                                       // Before the .toFixed indicates which number should be adjusted
+                                                       // The number (1) indicates how many decimal places should exhibit
 
 // essa função é chamada ao clicar no botão.
 // ela vai pegar a lista de notas, ativar o cálulo da média e mostrar o resultado de aprovação ou não
